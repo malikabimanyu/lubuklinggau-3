@@ -1,0 +1,48 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: white;
+  border-bottom: 3px solid #007ac1;
+  margin-bottom: 0px;
+}
+
+.navbar li{
+  font-size: 1.3em;
+}
+
+.label{
+  font-size: 100%;
+}
+
+.label-default{
+  background-color: #03a9f4;
+  transition: 0.3s;
+  color: #263238;
+}
+
+.label-default[href]:focus, .label-default[href]:hover {
+  background-color: #007ac1;
+  transition: 0.3s;
+  color: #FAFAFA;
+}
+
+#footer-kontak .jumbotron{
+  background-color: #007ac1;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 5%;
+  padding-bottom: 30px;
+  border-top: 5px solid #03a9f4;
+}
+
+#header-kontak .jumbotron{
+  background: url("../images/5.jpg");
+  background-size: cover;
+  color: white;
+  text-shadow: 1px 1px 8px #263238;
+  border-bottom: 2px solid #007ac1;
+}
